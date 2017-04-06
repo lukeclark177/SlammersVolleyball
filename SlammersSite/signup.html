@@ -14,12 +14,41 @@
             <li><a href="whocanplay.html">Who Can Play?</a></li>
             <li><a href="contact.html">Find Us</a></li>
             <li><a href="ladder.html">Ladder</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li class="active"><a href="#">Sign Up</a></li>
         </ul>
     </nav>
 </header>
+<div id="signup">
 <h1>Sign-up to play</h1>
-
-
+<form action="info.txt" method="get">
+    Contact Name:<br>
+    <input type="text" name="contactname"><br><br>
+    Phone Number:<br>
+    <input type="tel" name="phonenumber"><br><br>
+    Email Address:<br>
+    <input type="email" name="emailadress" autocomplete="on"><br><br>
+    Competition Day:<br>
+    <input type="radio" name="day" value="Monday"> Monday<br>
+    <input type="radio" name="day" value="Tuesday"> Tuesday<br>
+    <input type="radio" name="day" value="Wednesday"> Wednesday<br>
+    <input type="radio" name="day" value="Thursday"> Thursday<br>
+    <input type="radio" name="day" value="Friday"> Friday<br>
+    <input type="radio" name="day" value="Saturday"> Saturday<br>
+    Competition Time:<br>
+    <select name="Time">
+        <option value="Afternoon">Afternoon</option>
+        <option value="Evening">Evening</option>
+    </select><br>
+    <input type="checkbox" name="agree" value="agree">I have read and agree to the guidelines<br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+</form>
+<h1>Playing Guidelines</h1>
+<p>
+    Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable.<br>
+    Check with your doctor before you begin. Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund.<br>
+    Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.
+</p>
+</div>
 </body>
 </html>

@@ -4,15 +4,12 @@ body {
     margin: 0;
 }
 
-h1, h2, li {
+h1, h2 {
     color: #555;
     font-family: Impact;
 }
 
-a {
-    color: deepskyblue;
-}
-
+a {color:white}
 p {
     background:#666;
     color: white;
@@ -42,13 +39,24 @@ nav ul{
 }
 
 nav ul li {
-    background: black;
+    background: darkblue;
     color: white;
     display: inline-block;
     list-style-type: none;
     padding: 5px 15px;
-    margin: 0;
-    padding: 30px;
+    position: static;
 }
 
+nav ul li:hover{
+    color: white;
+    background-color: darkgreen;
+}
+.active {background: darkgreen}
 
+div#signup {margin: auto;
+text-align: center
+}
+
+div#contactimg {
+text-align: center;
+}
