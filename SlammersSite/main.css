@@ -1,0 +1,54 @@
+body {
+    background: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+h1, h2, li {
+    color: #555;
+    font-family: Impact;
+}
+
+a {
+    color: deepskyblue;
+}
+
+p {
+    background:#666;
+    color: white;
+    padding: 10px;
+}
+
+.secondary {
+    margin-right: 250px;
+    margin-left: 1000px;
+    margin-top: 100px;
+}
+
+div#left {position: absolute}
+
+div#right {
+    position: absolute;}
+
+header {
+    background: #999;
+    color: white;
+    padding:15px 15px 0 15px;
+}
+
+nav ul{
+    margin: 0;
+    float:right;
+}
+
+nav ul li {
+    background: black;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    margin: 0;
+    padding: 30px;
+}
+
+
